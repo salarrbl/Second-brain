@@ -10,7 +10,6 @@ yo meaning yashar owasp
 - [[cors]]
 - 
 # CSRF
-- [csrf-Portswigger](./06-CSRF/CSRF-Portswigger.md)
-- [crsfy](./06-CSRF/CSRF-y.md) 
+- [csrf](./06-CSRF/CSRF.md) 
 # XSS
-- [xss-y](./07-XSS/XSS-y.md)
+- [xss](./07-XSS/xss.md)

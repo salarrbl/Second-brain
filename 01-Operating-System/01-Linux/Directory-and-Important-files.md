@@ -44,7 +44,7 @@
             - log server
             - print server
             - web server
-	            - [[Web Server]]  Log /var/log/httpd
+	            - [[Web-Server]]  Log /var/log/httpd
             - mail server
             - cache server
             - client server
