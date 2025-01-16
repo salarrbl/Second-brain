@@ -1,16 +1,15 @@
-## [[Network]]
+## [Network](./00-Network/Network.md)
 - ## HTTP
 - ## DNS
-## [[Operating Systems]] 
+## [Operating Systems](./01-Operating System/Operating Systems.md)
 - ## Linux
-## [[Programming]]
+## [Programming](./02-Programming/Programming.md)
 - ### Python
 - ### SQL
 - ### Bash Scripts
 - ### JavaScript
 ## Web Application
-- ### [[API-Sec]]
+- ### [API-Sec](./03-Web-Application/API-Sec.md)
 
 ## Owasp
-- ### [[owasp]]
-- ### [owasp]($HOME/Documents/Docs/my-knowlge/04-OWASP/owasp.md)
+- ### [owasp](./04-OWASP/owasp.md)
