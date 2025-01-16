@@ -1,3 +1,3 @@
- - ### [[HTTP]]
- - ### [[DNS]]
+ - ### [HTTP](./01-HTTP/HTTP.md)
+ - ### [DNS](./02-DNS/DNS.md)
  - 
