@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "04-OWASP/06-CSRF/CSRF-Portswigger.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "CSRF-Portswigger"
             }
           }
         ]
@@ -178,10 +178,10 @@
   },
   "active": "a0df3c3dd1a7a61b",
   "lastOpenFiles": [
+    "README.md",
     "04-OWASP/06-CSRF/CSRF-Portswigger.md",
     "09-English/Terms in write ups and more/Terms.md",
     "Knowledge.md",
-    "README.md",
     "04-OWASP/01-SQL Injections/SQL injection PortSwigger.md",
     "05-Write-Ups/Write-Ups.md",
     "08-tools/sqlmap.md",
