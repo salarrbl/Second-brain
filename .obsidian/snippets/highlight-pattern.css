@@ -1,0 +1,53 @@
+/* /1* Highlight specific text like `print(ssa)` *1/ */
+/* .cm-inline-code, .markdown-preview-view code { */
+/*   background-color:  gg !important; /1* Highlight color (yellow) *1/ */
+/*   color: #000 !important;              /1* Text color (black) *1/ */
+/*   border-radius: 4px;                  /1* Rounded corners *1/ */
+/*   padding: 2px 4px;                    /1* Padding *1/ */
+/* } */
+
+/* /1* Optional: Customize inline code specifically for `print(ssa)` *1/ */
+/* .cm-inline-code[data-content="print(ssa)"], */
+/* .markdown-preview-view code:contains("print(ssa)") { */
+/*   background-color: #ff5722 !important; /1* Highlight color (orange) *1/ */
+/*   color: #fff !important;              /1* Text color (white) *1/ */
+/* } */
+/* استایل‌دهی کدهای Inline */
+.cm-inline-code, .markdown-preview-view code {
+  background-color: #2d2d2d !important; /* پس‌زمینه خاکستری تیره */
+  color: red  !important;           /* رنگ پیش‌فرض صورتی ملایم */
+  font-family: "Fira Code", monospace;
+  border-radius: 4px;
+  padding: 2px 4px;
+}
+
+/* استایل‌دهی بلوک‌های کد */
+pre, .markdown-preview-view pre {
+  background-color: #2d2d2d !important; /* پس‌زمینه تیره */
+  color: #ffffff !important;           /* رنگ متن پیش‌فرض سفید */
+  font-family: "Fira Code", monospace;
+  border-radius: 8px;
+  padding: 12px;
+  overflow-x: auto;
+}
+
+/* هایلایت سینتکس برای کلمات کلیدی */
+pre span.cm-keyword, .markdown-preview-view pre .cm-keyword {
+  color: #80d4ff !important; /* صورتی برای کلمات کلیدی */
+}
+
+/* هایلایت سینتکس برای استرینگ‌ها */
+pre span.cm-string, .markdown-preview-view pre .cm-string {
+  color: #ffff80 !important; /* زرد برای استرینگ‌ها */
+}
+
+/* هایلایت سینتکس برای متغیرها */
+pre span.cm-variable, .markdown-preview-view pre .cm-variable {
+  color: #80d4ff !important; /* آبی روشن برای متغیرها */
+}
+
+/* هایلایت سینتکس برای اعداد */
+pre span.cm-number, .markdown-preview-view pre .cm-number {
+  color: #ffcc99 !important; /* نارنجی ملایم برای اعداد */
+}
+

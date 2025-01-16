@@ -1,0 +1,6 @@
+## [[python]]
+## [[JavaScript]]
+- 
+## [[Bash]]
+
+## [[SQl]]

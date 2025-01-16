@@ -1,0 +1,242 @@
+{
+  "main": {
+    "id": "72dada1bc7837232",
+    "type": "split",
+    "children": [
+      {
+        "id": "281e4989d73c1b35",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "00a7f0b4d997d087",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Knowledge.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Knowledge"
+            }
+          },
+          {
+            "id": "a0df3c3dd1a7a61b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "04-OWASP/06-CSRF/CSRF-Portswigger.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CSRF-Portswigger"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4c4eabce59c746f5",
+    "type": "split",
+    "children": [
+      {
+        "id": "53a0320d731f19fc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ffc991438c18a82f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "83af32b949d79e80",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "b44fb323c67605cf",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          },
+          {
+            "id": "6cf681c12bd735e5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "09-English/Terms in write ups and more/Terms.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Terms"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 273.5
+  },
+  "right": {
+    "id": "2f56256dd7f495c0",
+    "type": "split",
+    "children": [
+      {
+        "id": "13b332fdf7131ff3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f5845f66c72f8e69",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": true,
+                "sortOrder": "alphabetical",
+                "showSearch": true,
+                "searchQuery": "",
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "ac1e9f36175b3964",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "00-Network/01-HTTP/HTTP-Message.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from HTTP-Message"
+            }
+          },
+          {
+            "id": "4681c425c6e1c983",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "6dd180fceab936c8",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "00-Network/01-HTTP/HTTP-Message.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of HTTP-Message"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "terminal:Open terminal": false
+    }
+  },
+  "active": "00a7f0b4d997d087",
+  "lastOpenFiles": [
+    "09-English/Terms in write ups and more/Terms.md",
+    "04-OWASP/06-CSRF/CSRF-Portswigger.md",
+    "Knowledge.md",
+    "04-OWASP/01-SQL Injections/SQL injection PortSwigger.md",
+    "05-Write-Ups/Write-Ups.md",
+    "08-tools/sqlmap.md",
+    "04-OWASP/01-SQL Injections/sqli.md",
+    "04-OWASP/01-SQL Injections/SQL injection-yo.md",
+    "04-OWASP/01-SQL Injections/pics/uinon2.png",
+    "04-OWASP/01-SQL Injections/pics/p1port.png",
+    "04-OWASP/01-SQL Injections/pics/flow2.png",
+    "04-OWASP/01-SQL Injections/pics/2025-01-05_22-31.png",
+    "00-Network/Network.md",
+    "00-Network/02-DNS/DNS.md",
+    "00-Network/01-HTTP/HTTP-Message.md",
+    "06-Recon/Recon1.md",
+    "08-tools/Tools.md",
+    "08-tools/Nmap.md",
+    "08-tools/Commix.md",
+    "08-tools/Recon-scr/Recon-Project.md",
+    "08-tools/01-me-Created/rebel.md",
+    "04-OWASP/owasp.md",
+    "03-Web-Application/API-Sec.md",
+    "02-Programming/Programming.md",
+    "02-Programming/Bash/Cool Scripts.md",
+    "02-Programming/Bash/Bash.md",
+    "02-Programming/SQL/SQl.md",
+    "00-Network/01-HTTP/HTTP.md",
+    "00-Network/01-HTTP/Web Server.md",
+    "01-Operating System/01-Linux/Linux.md",
+    "$HOME/Documents/Docs/my-knowlge/04-OWASP",
+    "$HOME/Documents/Docs/my-knowlge",
+    "$HOME/Documents/Docs",
+    "$HOME/Documents",
+    "$HOME",
+    "04-OWASP/06-CSRF/pics/csrf1-p.png",
+    "04-OWASP/06-CSRF/pics",
+    "04-OWASP/05-CORS/pics/p1-portswigger1.png",
+    "04-OWASP/05-CORS/pics/p2cors.png",
+    "04-OWASP/05-CORS/pics/p1cors.png",
+    "04-OWASP/05-CORS/pics",
+    "04-OWASP/05-CORS/Untitled Folder",
+    "03-Web-Application/pics/p2-api-sce.png",
+    "03-Web-Application/pics/pic3api-sec.png",
+    "03-Web-Application/pics",
+    "03-Web-Application/Untitled Folder"
+  ]
+}

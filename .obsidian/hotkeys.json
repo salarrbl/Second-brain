@@ -1,0 +1,10 @@
+{
+  "languagetool:check": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "T"
+    }
+  ]
+}

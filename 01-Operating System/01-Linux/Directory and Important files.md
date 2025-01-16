@@ -1,0 +1,92 @@
+- /
+    -  Root file system or dirctory
+- /boot
+    
+    - StatrUp files
+        - kernel    
+        - initRB
+        - bootloder file an config
+- /root
+    - home dirctory root
+    - kernel
+- /home
+    - home dirctory other users
+- /bin
+    - Abbreviation binary
+    - exec file command verry one       
+        - users commnads or general commnads
+- /sbin
+    - Abbreviation system binary
+    - exec file system commnad just root
+- /lib
+    - Abbreviation library  
+        - library system
+        - kernel modules
+- /opt    
+    - optional
+        - thrid party applicatons
+- /tmp
+    - temporary
+        - It is a temporary place for everyone to use.
+        - reboot linux atumatic clean files in dirctory
+- /etc
+    - etcetera       
+        - host configurations files
+- /dev
+    - device
+        - To the components of each device a file
+- /mnt and /media and /run/media
+	-  prepheral device
+- /var
+    - variable
+        - Programming is irrelevant.
+        - files service
+            - log server
+            - print server
+            - web server
+	            - [[Web Server]]  Log /var/log/httpd
+            - mail server
+            - cache server
+            - client server
+            - a few application ceches
+
+- /usr    
+    - users
+    - users for system
+        - non-essential executable program
+        - in dirctoy sakhtary be shbeh be / dard '
+- /porc
+- /sys
+    - log for kernel
+- /srv in  arch
+    - HTTP server
+    - ftp 
+- /dev/null 
+	- سیاه چاله
+
+#### files
+- /etc/shadow
+- /etc/group
+- /etc/resolve.conf
+- /etc/passwd
+- /etc/hosts
+- /home/user/.ssh
+
+#### File Types
+- regular file
+    - txt
+    - mp 3
+    - jpg
+- directory
+- symbolic link
+- socket
+- pipe
+- special device, character
+- special device , block
+
+#### links
+- ##### symbolic link
+	- `ln -s file-path  link-name`
+- ##### hard link
+	- `ln file-path link-name`
+ 
