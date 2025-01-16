@@ -1,4 +1,4 @@
-[[SQL injection-yo]]
+[[SQL injection-y]]
 [[SQL injection PortSwigger]]
 [[SQl]]
 [[sqlmap]]

@@ -1,0 +1,42 @@
+### what  is it?
+- Serving resource on the web
+- by HTTP protocol (IP/TCP/HTTP)
+
+
+### Configuration (Apache 🪶)
+- #### main configuration 
+	- in Debian base 
+		-  /etc/apache2/apche2conf
+	- in arch Linux
+		- /etc/httpd/conf/httpd.conf
+- #### site-enabled
+	- virtual-host1.conf
+	- name.conf
+- #### Directive
+	- DocumentRoot
+		- directory where files and folders are
+	- Server Name
+		- hostname for a virtual host
+	-  Listen 
+		- The IP and port where Apache is bound
+	- ErrorLog
+		- location of the error files
+	- Include & IncludeOptional
+		- Including another configuration file
+	- Dirctory
+		- to enclose a group of directives
+	- Files
+		- To limit the scope of the enclosed directive
+	-  IfModule 
+		- directive only applied if module is present
+- #### Security
+	-  Apache needs to start as root
+	- listening socket on privileged ports
+	- Uses setuid to switch to user
+	- www-data is the user
+- #### Virtual Host
+	- multiple hosts on a server
+	- Based on HTTP Host header
+	- DNS handles the domain
+	- Web-Server handles the virtual host
+- #### log

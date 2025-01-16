@@ -1,3 +1,3 @@
 [[API-Sec]]
-[[CORS-yo]]
+[[CORS-y]]
 [[CORS-portswigger]]
