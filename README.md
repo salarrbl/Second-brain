@@ -1,7 +1,7 @@
 ## [Network](./00-Network/Network.md)
 - ## HTTP
 - ## DNS
-## [Operating-Systesms](./01-Operating System/Operating-Systems.md)
+## [Operating-Systesms](./01-Operating-System/Operating-Systems.md)
 - ## Linux
 ## [Programming](./02-Programming/Programming.md)
 - ### Python
