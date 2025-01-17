@@ -29,4 +29,4 @@ The attack scenario is shown below:
 * Based on the Session, the CSRF token is checked in server side
 
 
-![[csrfy2.png]]
+![[04-OWASP/06-CSRF/pics/csrfy2.png]]
