@@ -12,10 +12,10 @@
 	    - Body 
 	    - Like this :
 			```http
-			GET / HTTP/1.1
-			Host: 0.0.0.0
-			User-Agent: curl/8.11.1
-			Accept: */*
+GET / HTTP/1.1
+Host: 0.0.0.0
+User-Agent: curl/8.11.1
+Accept: */*
 ```
 	- #### Response
 	    - Status line
@@ -69,7 +69,7 @@
 	- 200-299
 		- successful
 	- 300-399
-		- redirectin
+		- redirection
 	- 400-499
 		- Client Error
 	- 500-599

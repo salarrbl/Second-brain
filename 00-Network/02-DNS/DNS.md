@@ -3,7 +3,7 @@
 - DNS Query: a request asking for the IP address
 - DNS Client: a machine sending name resolution queries
 - DNS Server: a machine which responds to DNS queries 
-- Name Server: a machine which responds to DNS quries
+- Name Server: a machine which responds to DNS quires
 ## Records
 - A Record, IPv4 address
 - AAAA Record, IPv6 address

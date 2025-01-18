@@ -120,3 +120,14 @@ sendToClipboard
 echo "Text extracted and copied to clipboard."
 ```
 
+# search and speak word's in a file
+```shell
+#!/usr/bin/env bash
+word=$1
+RESET='\033[0m'
+BG_GREEN='\033[42m'
+GREEN='\033[32m'
+w=`grep -o $word ~/Documents/Docs/my-knowlge/10-Non-technical/03-English/Terms-in-write-ups-and-more/Terms.md`
+echo -e ${GREEN}$w${RESET}
+grep -o $word ~/Documents/Docs/my-knowlge/10-Non-technical/03-English/Terms-in-write-ups-and-more/Terms.md | espeak -v en-us -p 1 
+```

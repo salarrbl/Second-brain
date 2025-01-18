@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "d29f38662c619f9d",
+        "id": "a3cdd3824eee172a",
         "type": "tabs",
         "children": [
           {
-            "id": "b1b4938a9af8367c",
+            "id": "4ae7db05218b9df6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-Operating-System/01-Linux/Linux.md",
+                "file": "10-Non-technical/Non-technical Skills.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Linux"
+              "title": "Non-technical Skills"
+            }
+          },
+          {
+            "id": "5ce9dfe6f8ed7ece",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "10-Non-technical/01-Book's/The Gifts of Imperfection - Brené Brown.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "The Gifts of Imperfection - Brené Brown"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -107,6 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "10-Non-technical/01-Book's/The Gifts of Imperfection - Brené Brown.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -116,7 +132,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for The Gifts of Imperfection - Brené Brown"
             }
           },
           {
@@ -176,21 +192,41 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "b1b4938a9af8367c",
+  "active": "5ce9dfe6f8ed7ece",
   "lastOpenFiles": [
-    "10-Non-technical/03-English/Terms in write ups and more/Terms.md",
+    "10-Non-technical/01-Book's/The Gifts of Imperfection - Brené Brown.md",
+    "10-Non-technical/01-Book's/Book.md",
+    "10-Non-technical/Non-technical Skills.md",
+    "10-Non-technical/03-English/English language.md",
+    "README.md",
     "10-Non-technical/03-English/Terms-in-write-ups-and-more/Terms.md",
-    "10-Non-technical/03-English/Terms-in-write-ups-and-more",
+    "10-Non-technical/01-Book's/The Easy Way to Stop Smoking  by Allen Carr.md",
+    "10-Non-technical/01-Book's/Discipline.md",
+    "2025-01-19.md",
+    "10-Non-technical/02-course and more/Speed-​​reading.md",
+    "03-English/Terms.md",
+    "00-Network/01-HTTP/HTTP-Message.md",
+    "00-Network/99-Books/HTTP Pocket Reference.pdf",
+    "08-tools/sqlmap.md",
+    "08-tools/Tools.md",
+    "02-Programming/JavaScript/JavaScript-TryHackme.md",
+    "08-tools/Nmap.md",
+    "00-Network/01-HTTP/HTTP.md",
+    "00-Network/01-HTTP/Web-Server.md",
+    "00-Network/99-Books",
+    "00-Network/Untitled Folder",
+    "00-Network/02-DNS/DNS.md",
+    "02-Programming/Bash/Cool Scripts.md",
     "01-Operating-System/01-Linux/Linux.md",
+    "10-Non-technical/03-English/Terms in write ups and more/Terms.md",
+    "10-Non-technical/03-English/Terms-in-write-ups-and-more",
     "04-OWASP/07-XSS/XSS-y.md",
     "04-OWASP/07-XSS/XSS-Burte-logic.md",
     "04-OWASP/owasp.md",
     "04-OWASP/07-XSS/XSS-PortSwigger.md",
-    "04-OWASP/07-XSS/xss.md",
     "04-OWASP/07-XSS/pic3/xss-ports-bal4-1.png",
     "04-OWASP/07-XSS/pic3/xss-ports-bal3-2.png",
     "04-OWASP/07-XSS/pic3/xss-ports-bal3-1.png",
-    "04-OWASP/07-XSS/xss-skf.md",
     "04-OWASP/07-XSS/pic3/xss-ports-bal2-4.png",
     "04-OWASP/07-XSS/pic3/xss-ports-bal2-3.png",
     "04-OWASP/07-XSS/pic3/xss-ports-bal2-2.png",
@@ -198,31 +234,11 @@
     "04-OWASP/07-XSS/pic3/xss-ports-bal1-3.png",
     "04-OWASP/07-XSS/pic3/xss-ports-bal1-2.png",
     "04-OWASP/07-XSS/pic3/xss-ports-bal1-1.png",
-    "Reflected XSS.md",
-    "04-OWASP/05-CORS/CORS-portswigger.md",
-    "04-OWASP/06-CSRF/CSRF-Portswigger.md",
     "04-OWASP/07-XSS/pic3/xss-skf4.okular",
-    "04-OWASP/06-CSRF/CSRF-SKF.md",
     "04-OWASP/07-XSS/pic3/pics",
     "04-OWASP/07-XSS/pic3",
-    "01-Operating-System/Operating-Systems.md",
-    "01-Operating-System/01-Linux/i3wm.md",
-    "02-Programming/Bash/Bash.md",
-    "01-Operating-System/01-Linux/vim.md",
-    "02-Programming/Bash/Recon-Project-Bash.md",
-    "01-Operating-System/01-Linux/Permissions.md",
-    "01-Operating-System/01-Linux/Commands.md",
-    "01-Operating-System/01-Linux/Directory-and-Important-files.md",
-    "10-Non-technical/Non-technical Skills.md",
-    "10-Non-technical/02-course and more/Speed-​​reading.md",
     "10-Non-technical/02-course and more/pics",
-    "03-English/Terms.md",
     "03-English",
-    "03-Web-Application/web-application-concept.md",
-    "10-Non-technical/02-course and more",
-    "10-Non-technical/01-Book's",
-    "10-Non-technical",
-    "Web Server.md",
-    "$HOME/Documents/Docs/my-knowlge/04-OWASP"
+    "10-Non-technical/02-course and more"
   ]
 }
