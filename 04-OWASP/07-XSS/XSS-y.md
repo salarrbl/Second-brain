@@ -20,3 +20,28 @@
 
  Let’s discover an XSS in a WordPress’s plugin and write an exploit code to pop an alert
 
+
+
+# XSS Exploitation
+
+## Cross-Site Scripting Exploitation
+- XSS disables the most important security feature in the browsers, what is it> SOP
+- Considering this, by XSS we can perform any action on behalf of the victim | For example assume we have an XSS in a WordPress website, in another word we are 
+  administrator & We don’t have
+- administration interface, but we can force administrator to do anything we want.
+
+## Add Administration Account
+
+- In the WordPress administration panel, there is a section named Users which is for user management. In this section, we can force administrator to add new privileged user. There is a problem here, the request
+- is protected against CSRF. However, we have an XSS so the exploit flow is:
+
+* Sending an HTTP request to the Users sec(GIon to load the page
+-  Searching and extracting CSRF token in response (DOM is accessible due to XSS)
+* Sending an HTTP request to add administration account (CSRF token included)
+-  Bingo! we will have a high privilege account by XSS
+
+The attacking flow is:
+# ![[xss1.png]]
+
+
+# setup word-press 6.3.1
