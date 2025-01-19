@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10-Non-technical/01-Book's/The Gifts of Imperfection - Brené Brown.md",
+                "file": "10-Non-technical/Non-technical Skills.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "The Gifts of Imperfection - Brené Brown"
+              "title": "Non-technical Skills"
             }
           }
         ],
@@ -194,6 +194,10 @@
   },
   "active": "5ce9dfe6f8ed7ece",
   "lastOpenFiles": [
+    "02-Programming/Bash/Cool Scripts.md",
+    "10-Non-technical/Allen Carrs Easy Way to Stop Smoking (Allen Carr) (Z-Library).epub",
+    "02-Programming/Bash/Bash.md",
+    "01-Operating-System/01-Linux/Linux.md",
     "10-Non-technical/01-Book's/The Gifts of Imperfection - Brené Brown.md",
     "10-Non-technical/01-Book's/Book.md",
     "10-Non-technical/Non-technical Skills.md",
@@ -216,14 +220,10 @@
     "00-Network/99-Books",
     "00-Network/Untitled Folder",
     "00-Network/02-DNS/DNS.md",
-    "02-Programming/Bash/Cool Scripts.md",
-    "01-Operating-System/01-Linux/Linux.md",
     "10-Non-technical/03-English/Terms in write ups and more/Terms.md",
     "10-Non-technical/03-English/Terms-in-write-ups-and-more",
     "04-OWASP/07-XSS/XSS-y.md",
     "04-OWASP/07-XSS/XSS-Burte-logic.md",
-    "04-OWASP/owasp.md",
-    "04-OWASP/07-XSS/XSS-PortSwigger.md",
     "04-OWASP/07-XSS/pic3/xss-ports-bal4-1.png",
     "04-OWASP/07-XSS/pic3/xss-ports-bal3-2.png",
     "04-OWASP/07-XSS/pic3/xss-ports-bal3-1.png",
@@ -238,7 +238,6 @@
     "04-OWASP/07-XSS/pic3/pics",
     "04-OWASP/07-XSS/pic3",
     "10-Non-technical/02-course and more/pics",
-    "03-English",
-    "10-Non-technical/02-course and more"
+    "03-English"
   ]
 }
