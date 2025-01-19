@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10-Non-technical/04-book-pdfs/Book.md",
+                "file": "04-OWASP/07-XSS/XSS-PortSwigger.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Book"
+              "title": "XSS-PortSwigger"
             }
           }
         ],
@@ -194,9 +194,9 @@
   },
   "active": "5ce9dfe6f8ed7ece",
   "lastOpenFiles": [
+    "10-Non-technical/04-book-pdfs/Book.md",
     "10-Non-technical/01-Book's/Book.md",
     "10-Non-technical/Non-technical Skills.md",
-    "10-Non-technical/04-book-pdfs/Book.md",
     "10-Non-technical/04-book-pdfs/The Easy Way to Stop Smoking Join the Millions Who Have Become Nonsmokers.. (Allen Carr) (Z-Library).pdf",
     "10-Non-technical/04-book-pdfs",
     "10-Non-technical/05-book-pdfs/The Easy Way to Stop Smoking Join the Millions Who Have Become Nonsmokers.. (Allen Carr) (Z-Library).pdf",
