@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10-Non-technical/Non-technical Skills.md",
+                "file": "10-Non-technical/04-book-pdfs/Book.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Non-technical Skills"
+              "title": "Book"
             }
           }
         ],
@@ -194,17 +194,23 @@
   },
   "active": "5ce9dfe6f8ed7ece",
   "lastOpenFiles": [
+    "10-Non-technical/01-Book's/Book.md",
+    "10-Non-technical/Non-technical Skills.md",
+    "10-Non-technical/04-book-pdfs/Book.md",
+    "10-Non-technical/04-book-pdfs/The Easy Way to Stop Smoking Join the Millions Who Have Become Nonsmokers.. (Allen Carr) (Z-Library).pdf",
+    "10-Non-technical/04-book-pdfs",
+    "10-Non-technical/05-book-pdfs/The Easy Way to Stop Smoking Join the Millions Who Have Become Nonsmokers.. (Allen Carr) (Z-Library).pdf",
+    "10-Non-technical/05-book-pdfs",
+    "10-Non-technical/The Easy Way to Stop Smoking Join the Millions Who Have Become Nonsmokers.. (Allen Carr) (Z-Library).pdf",
+    "10-Non-technical/01-Book's/The Easy Way to Stop Smoking  by Allen Carr.md",
     "02-Programming/Bash/Cool Scripts.md",
     "10-Non-technical/Allen Carrs Easy Way to Stop Smoking (Allen Carr) (Z-Library).epub",
     "02-Programming/Bash/Bash.md",
     "01-Operating-System/01-Linux/Linux.md",
     "10-Non-technical/01-Book's/The Gifts of Imperfection - Brené Brown.md",
-    "10-Non-technical/01-Book's/Book.md",
-    "10-Non-technical/Non-technical Skills.md",
     "10-Non-technical/03-English/English language.md",
     "README.md",
     "10-Non-technical/03-English/Terms-in-write-ups-and-more/Terms.md",
-    "10-Non-technical/01-Book's/The Easy Way to Stop Smoking  by Allen Carr.md",
     "10-Non-technical/01-Book's/Discipline.md",
     "2025-01-19.md",
     "10-Non-technical/02-course and more/Speed-​​reading.md",
@@ -233,11 +239,6 @@
     "04-OWASP/07-XSS/pic3/xss-ports-bal2-1.png",
     "04-OWASP/07-XSS/pic3/xss-ports-bal1-3.png",
     "04-OWASP/07-XSS/pic3/xss-ports-bal1-2.png",
-    "04-OWASP/07-XSS/pic3/xss-ports-bal1-1.png",
-    "04-OWASP/07-XSS/pic3/xss-skf4.okular",
-    "04-OWASP/07-XSS/pic3/pics",
-    "04-OWASP/07-XSS/pic3",
-    "10-Non-technical/02-course and more/pics",
-    "03-English"
+    "04-OWASP/07-XSS/pic3/xss-ports-bal1-1.png"
   ]
 }

@@ -1,3 +1,4 @@
+- [Book pdf](./../04-book-pdfs/Book.md)
 - [[Discipline]]
 - [[The Easy Way to Stop Smoking  by Allen Carr]]
 - 
