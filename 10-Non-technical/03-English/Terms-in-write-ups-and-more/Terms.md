@@ -40,43 +40,127 @@ necessary لازم است
 implemented اجرا شدن 
 arising به وجود امدن 
 unpredictable  غیر قابل پیش بینی
-Confusing
-able
-easiest
-widespread
-arbitrary
-comprehensive
+Confusing  گیج کننده 
+able قادر بودن 
+easiest ساده ترین 
+widespread گسرتده 
+arbitrary   دالخواه
+comprehensive  
 Equip
 evasion
-prerequisites
-enumeration
-user-supplied
-severity
-detection
+prerequisites  پیش نیاز ها 
+enumeration  شمارش .. شناسایی
+user-supplied ورودی یوزر
+severity  شدت آسیب پذیری
+detection شناسایی
 fuzz
-suspicious
-involves
-out of band
-exfiltration
-stateless
-provides
-invoked
-streamline
-ability
-kind
-promised
-sufficient
-usually
-a accompanied
-occurs
-by far
-familiar
-Either
-passes
-rather
-intercepting 
-directly
-instead
+suspicious  مشکوک
+involves  شامل مییشه
+out of band   خارج ااز محدوده
+exfiltration استخراج
+stateless 
+provides فراهم میکند
+invoked  فراخوانده . اجرا کردن
+streamline  شاده 
+ability  توانایی
+kind  نوع 
+promised  متعهد شده .. قول داده شده
+sufficient  کافی .به اندازه کافی
+usually  معمولا 
+a accompanied   همراه شود
+occurs رخ میدهد
+by far سپس 
+familiar   شبیه به هم
+Either یا 
+passes رد کردن
+rather  ترجیح 
+intercepting پذیرش 
+directly  مستقیما
+instead  به جای
+supplied = provide
+occasionally خصوصا
+both  باهم
+Reconnaissance  شناسایی . پیش بررسی
+Relate  وابسته . مرتبط
+Cretin  مطمين .. یقینن
+directives  دستور المعل 
+revalidate اعتبار سنجی دوباره
+wishes آرزوها 
+evaluates  اجرا مردن
+stands  
+validation  اعتبار سنجی
+statement  بیاتید
+stale  قدیمی منسوخ
+Prefers ترجیح می دهد
+multiple   چندگانه .. متعدد
+expectation  انتظار.  توقع 
+supply   تامین 
+omitted حذ شده .. نادیده گرفته شده
+widespread  گسترده
+comprehensive   جامع . کامل
+Equip  مجهز کردن
+evasion  طفره رفتن
+detect  شناسایی کردن
+occur  اتفاق می افتد . رخ میدهد
+still  هنوز
+contents  مطالب 
+delays  تاخیرها 
+trigger  راه انداختن
+Discuss  بحث رکدن 
+impact تاثیر 
+arise   رخ دادن. برخاستن
+constructing  ساخت ساز 
+crafting  ساختن . خلق کردن
+evaluates اجرا کردن
+initiated  شروع کننده
+issue  موضوع 
+prevent    جلوگیری کردن
+manipulating    دستکاری
+variety   تنوع 
+majority   اکثریت . اکثرا
+involves  
+arises   به وجود می آید   . به وجود امد
+might   میتواند 
+via از طزیق 
+explain  توضیح دادن
+between  بین   میان 
+abbreviation   مخفف
+collect   جمع آوری 
+juicy  
+escape  گریز  فرار 
+various مختلف 
+behavior   رفتار
+pare these   ()
+defenses    دفاع ها 
+unpredictable   
+perform   انجام دادن
+must   باید 
+otherwise   در غیر این صورت 
+reface   رد کردن 
+correctly   به درستی 
+depends   بستگی داشتن 
+tied مربوط بودن     متصل بودن 
+understanding  درک کردن  
+questions  سوالات 
+section  مرحله 
+varieties انواع 
+circumvent  دور زدن 
+among st 
+deliver   تحویل دادن 
+sinks  منابع ورودی
+dependencies  وابستگیها 
+additional اضافی
+capabilities قابیلتها 
+potential بالقوه 
+instance نمونه 
+cause علت 
+interactive  
+
+
+
+
+
+
 
 
 

