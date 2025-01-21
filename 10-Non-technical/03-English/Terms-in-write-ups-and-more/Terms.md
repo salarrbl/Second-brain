@@ -155,6 +155,7 @@ potential بالقوه
 instance نمونه 
 cause علت 
 interactive  
+triggering  محرک
 
 
 

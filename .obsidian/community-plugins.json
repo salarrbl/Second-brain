@@ -8,5 +8,8 @@
   "shiki-highlighter",
   "mlir-syntax-highlight",
   "colored-text",
-  "inline-code-highlight"
+  "inline-code-highlight",
+  "surfing",
+  "various-complements",
+  "obsidian-autocomplete-plugin"
 ]

