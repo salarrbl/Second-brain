@@ -541,3 +541,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 # $_POST
 ## $_POST in JavaScript HTTP Requests
+## create a web server with php
+```shell
+php -S localhost:8000
+```
+

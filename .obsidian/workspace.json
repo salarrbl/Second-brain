@@ -8,13 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d08779bb66cdc57c",
+            "id": "4b87a408d89ca673",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "canvas",
+              "state": {
+                "file": "11-my-roadmap/Roadmap.canvas",
+                "viewState": {
+                  "x": 741.8395251716851,
+                  "y": -879.5409549149614,
+                  "zoom": -1.5293807275858589
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Roadmap"
             }
           }
         ]
@@ -173,15 +180,25 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "ffc991438c18a82f",
+  "active": "4b87a408d89ca673",
   "lastOpenFiles": [
-    "03-Web-Application/RBWAPP",
-    "README.md",
-    "10-Non-technical/Non-technical Skills.md",
-    "02-Programming/PHP/Syntax.md",
-    "10-Non-technical/03-English/Terms-in-write-ups-and-more/Terms.md",
-    "Untitled.md",
+    "02-Programming/PHP/Form's php.md",
     "02-Programming/PHP/PHP.md",
+    "10-Non-technical/03-English/Terms-in-write-ups-and-more/Terms.md",
+    "10-Non-technical/04-book-pdfs/The Easy Way to Stop Smoking Join the Millions Who Have Become Nonsmokers.. (Allen Carr) (Z-Library).pdf",
+    "10-Non-technical/04-book-pdfs/Book.md",
+    "02-Programming/PHP/Syntax.md",
+    "01-Operating-System/01-Linux/init system.md",
+    "01-Operating-System/01-Linux/Linux.md",
+    "task's.md",
+    "11-my-roadmap/Roadmap.canvas",
+    "04-OWASP/05-CORS/CORS-portswigger.md",
+    "11-my-roadmap",
+    "README.md",
+    "04-OWASP/05-CORS/cors.md",
+    "04-OWASP/owasp.md",
+    "03-Web-Application/RBWAPP",
+    "10-Non-technical/Non-technical Skills.md",
     "02-Programming/Programming.md",
     "03-Web-Application/web-application-concept.md",
     "03-Web-Application/API-Sec.md",
@@ -202,15 +219,7 @@
     "04-OWASP/02-Command Injections/pics/skf-lab1-4.png",
     "10-Non-technical/02-course and more/Speed-​​reading.md",
     "00-Network/01-HTTP/URL-Encode.md",
-    "01-Operating-System/Operating-Systems.md",
-    "04-OWASP/owasp.md",
-    "04-OWASP/01-SQL Injections/sqli.md",
-    "02-Programming/SQL/SQl.md",
-    "01-Operating-System/01-Linux/Linux.md",
-    "01-Operating-System/01-Linux/Config Files.md",
-    "01-Operating-System/01-Linux/i3wm.md",
     "02-Programming/PHP",
-    "10-Non-technical/04-book-pdfs/The Easy Way to Stop Smoking Join the Millions Who Have Become Nonsmokers.. (Allen Carr) (Z-Library).pdf",
     "04-OWASP/02-Command Injections/pics/skf-lab1-3.png",
     "04-OWASP/02-Command Injections/pics/skf-lab1-2.png",
     "00-Network/01-HTTP/Untitled",
@@ -218,8 +227,6 @@
     "10-Non-technical/04-book-pdfs",
     "10-Non-technical/05-book-pdfs/The Easy Way to Stop Smoking Join the Millions Who Have Become Nonsmokers.. (Allen Carr) (Z-Library).pdf",
     "10-Non-technical/05-book-pdfs",
-    "10-Non-technical/The Easy Way to Stop Smoking Join the Millions Who Have Become Nonsmokers.. (Allen Carr) (Z-Library).pdf",
-    "10-Non-technical/Allen Carrs Easy Way to Stop Smoking (Allen Carr) (Z-Library).epub",
-    "00-Network/99-Books/HTTP Pocket Reference.pdf"
+    "10-Non-technical/The Easy Way to Stop Smoking Join the Millions Who Have Become Nonsmokers.. (Allen Carr) (Z-Library).pdf"
   ]
 }

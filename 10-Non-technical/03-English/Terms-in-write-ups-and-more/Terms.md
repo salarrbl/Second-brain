@@ -156,11 +156,7 @@ instance نمونه
 cause علت 
 interactive  
 triggering  محرک
-
-
-
-
-
+supervises    نظارت می کند
 
 
 
