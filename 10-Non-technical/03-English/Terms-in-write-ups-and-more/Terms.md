@@ -157,7 +157,7 @@ cause علت
 interactive  
 triggering  محرک
 supervises    نظارت می کند
-
+Credentials اعتبار نامه
 
 
 
