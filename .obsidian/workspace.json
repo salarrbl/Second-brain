@@ -11,20 +11,63 @@
             "id": "4b87a408d89ca673",
             "type": "leaf",
             "state": {
+              "type": "markdown",
+              "state": {
+                "file": "04-OWASP/04-SSTI/SSTI.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SSTI"
+            }
+          },
+          {
+            "id": "e856416d9bfa0103",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "04-OWASP/open redirection/DOM-based open redirection Portswigger.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "DOM-based open redirection Portswigger"
+            }
+          },
+          {
+            "id": "42020588936b9540",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "10-Non-technical/03-English/Terms-in-write-ups-and-more/Terms.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Terms"
+            }
+          },
+          {
+            "id": "634cb0d077dee4c3",
+            "type": "leaf",
+            "state": {
               "type": "canvas",
               "state": {
                 "file": "11-my-roadmap/Roadmap.canvas",
                 "viewState": {
-                  "x": 741.8395251716851,
-                  "y": -879.5409549149614,
-                  "zoom": -1.5293807275858589
+                  "x": -112.51867832145483,
+                  "y": -495.88473134084353,
+                  "zoom": 0.07108309806148216
                 }
               },
               "icon": "lucide-layout-dashboard",
               "title": "Roadmap"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -80,14 +123,10 @@
             "id": "6cf681c12bd735e5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "09-English/Terms in write ups and more/Terms.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Terms"
+              "title": "New tab"
             }
           }
         ]
@@ -180,53 +219,54 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "4b87a408d89ca673",
+  "active": "e856416d9bfa0103",
   "lastOpenFiles": [
-    "02-Programming/PHP/Form's php.md",
-    "02-Programming/PHP/PHP.md",
     "10-Non-technical/03-English/Terms-in-write-ups-and-more/Terms.md",
-    "10-Non-technical/04-book-pdfs/The Easy Way to Stop Smoking Join the Millions Who Have Become Nonsmokers.. (Allen Carr) (Z-Library).pdf",
-    "10-Non-technical/04-book-pdfs/Book.md",
-    "02-Programming/PHP/Syntax.md",
-    "01-Operating-System/01-Linux/init system.md",
-    "01-Operating-System/01-Linux/Linux.md",
-    "task's.md",
+    "10-Non-technical/03-English/English language.md",
     "11-my-roadmap/Roadmap.canvas",
-    "04-OWASP/05-CORS/CORS-portswigger.md",
-    "11-my-roadmap",
-    "README.md",
-    "04-OWASP/05-CORS/cors.md",
-    "04-OWASP/owasp.md",
-    "03-Web-Application/RBWAPP",
-    "10-Non-technical/Non-technical Skills.md",
-    "02-Programming/Programming.md",
-    "03-Web-Application/web-application-concept.md",
-    "03-Web-Application/API-Sec.md",
+    "04-OWASP/open redirection/DOM-based open redirection Portswigger.md",
+    "04-OWASP/open redirection/open redircetion.md",
+    "02-Programming/Bash/Bash.md",
+    "04-OWASP/open redirection",
+    "02-Programming/Bash/Cool Scripts.md",
+    "02-Programming/JavaScript/JavaScript-TryHackme.md",
+    "02-Programming/JavaScript/JavaScript for hackers.md",
+    "02-Programming/python/python.md",
+    "08-tools/Recon-scr/Recon-Project.md",
+    "04-OWASP/04-SSTI/SSTI.md",
+    "04-OWASP/03-RCE/RCE.md",
     "04-OWASP/02-Command Injections/command-injection.md",
-    "05-Write-Ups/Write-Ups.md",
-    "04-OWASP/01-SQL Injections/SQL injection PortSwigger.md",
+    "04-OWASP/01-SQL Injections/sqli.md",
+    "02-Programming/python/Recon-Project-Python.md",
+    "02-Programming/PHP/Syntax.md",
+    "02-Programming/PHP/PHP.md",
+    "02-Programming/PHP/Form's php.md",
+    "01-Operating-System/01-Linux/init system.md",
+    "01-Operating-System/01-Linux/Config Files.md",
+    "task's.md",
+    "README.md",
+    "01-Operating-System/01-Linux/Linux.md",
+    "01-Operating-System/01-Linux/i3wm.md",
+    "01-Operating-System/01-Linux/pics/conky-clock.png",
+    "01-Operating-System/Operating-Systems.md",
+    "03-Web-Application/web-application-concept.md",
+    "10-Non-technical/04-book-pdfs/The Easy Way to Stop Smoking Join the Millions Who Have Become Nonsmokers.. (Allen Carr) (Z-Library).pdf",
+    "11-my-roadmap",
+    "03-Web-Application/RBWAPP",
     "04-OWASP/01-SQL Injections/pics/p-blind1-5.png",
     "04-OWASP/01-SQL Injections/pics/p-blind1-4.png",
     "04-OWASP/01-SQL Injections/pics/p-blind1-3.png",
     "04-OWASP/01-SQL Injections/pics/p-blind1-2.png",
     "04-OWASP/01-SQL Injections/pics/p-blind1-1.png",
-    "04-OWASP/02-Command Injections/Command-Injection-portswigger.md",
-    "04-OWASP/06-CSRF/CSRF-SKF.md",
-    "04-OWASP/02-Command Injections/Command-Injection-SKF.md",
-    "08-tools/Commix.md",
     "04-OWASP/02-Command Injections/pics/skf-lab2-1.png",
     "04-OWASP/02-Command Injections/pics/skf-lab2-3.png",
     "04-OWASP/02-Command Injections/pics/skf-lab1-4.png",
-    "10-Non-technical/02-course and more/Speed-​​reading.md",
-    "00-Network/01-HTTP/URL-Encode.md",
     "02-Programming/PHP",
     "04-OWASP/02-Command Injections/pics/skf-lab1-3.png",
-    "04-OWASP/02-Command Injections/pics/skf-lab1-2.png",
     "00-Network/01-HTTP/Untitled",
     "01-Operating-System/01-Linux/pics",
     "10-Non-technical/04-book-pdfs",
     "10-Non-technical/05-book-pdfs/The Easy Way to Stop Smoking Join the Millions Who Have Become Nonsmokers.. (Allen Carr) (Z-Library).pdf",
-    "10-Non-technical/05-book-pdfs",
-    "10-Non-technical/The Easy Way to Stop Smoking Join the Millions Who Have Become Nonsmokers.. (Allen Carr) (Z-Library).pdf"
+    "10-Non-technical/05-book-pdfs"
   ]
 }

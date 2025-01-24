@@ -31,7 +31,7 @@ However, since `runit` itself depends on `runit-rc`, there will be several extra
 - Example create Apache
 ```bash
 sudo mkdir -p /etc/sv/httpd
-sudo nano /etc/sv/httpd/run
+sudo vim /etc/sv/httpd/run
 ```
 - example run `script`
 ```bash

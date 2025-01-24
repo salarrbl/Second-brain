@@ -49,3 +49,5 @@ ${alignc}${voffset 5}${color #c3bebb}${font Nasalization, Regular:pixelsize=36}$
 ${alignc}${voffset 5}${offset 15}${color #c3bebb}${font Sqeron, Regular:pixelsize=80}${time %d} 
 ${alignc}${voffset -35}${color #c3bebb}${font Nasalization, Regular:pixelsize=18}${time  %B} ${time %Y}${font}
 ```
+# the best vim config
+wim -> create by woland [GitHub](https://github.com/wolandark/wim)
