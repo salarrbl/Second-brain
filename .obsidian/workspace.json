@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10-Non-technical/03-English/Terms-in-write-ups-and-more/Terms.md",
+                "file": "04-OWASP/09-Mis-Sec/Security Misconfiguration.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Terms"
+              "title": "Security Misconfiguration"
             }
           },
           {
@@ -37,8 +37,40 @@
               "icon": "lucide-layout-dashboard",
               "title": "Roadmap"
             }
+          },
+          {
+            "id": "ec3ad0c7bc7504e1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01-Operating-System/01-Linux/init system.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "init system"
+            }
+          },
+          {
+            "id": "1a4d16d267031b54",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "11-my-roadmap/Roadmap.canvas",
+                "viewState": {
+                  "x": 92.33895211104971,
+                  "y": -466.16563359926937,
+                  "zoom": -0.7289169019385179
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Roadmap"
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -190,37 +222,39 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "42020588936b9540",
+  "active": "1a4d16d267031b54",
   "lastOpenFiles": [
+    "08-tools/Tools.md",
+    "08-tools/sqlmap.md",
+    "08-tools/Commix.md",
+    "02-Programming/Bash/Bash.md",
+    "Recon-Project-Bash.md",
+    "08-tools/01-me-Created/rebel.md",
+    "04-OWASP/owasp.md",
+    "04-OWASP/08-open redirection/open redircetion.md",
+    "04-OWASP/09-Mis-Sec/Security Misconfiguration.md",
+    "04-OWASP/09-Mis-Sec/01-Default Credentials.md",
+    "02-Programming/python/python.md",
+    "02-Programming/python/script_skf_cret_.md",
+    "01-Operating-System/01-Linux/init system.md",
+    "11-my-roadmap/Roadmap.canvas",
+    "02-Programming/python/script_skf_cret_.py",
+    "04-OWASP/09-Mis-Sec",
+    "04-OWASP/08-open redirection/DOM-based open redirection Portswigger.md",
+    "10-Non-technical/03-English/Terms-in-write-ups-and-more/Terms.md",
     "04-OWASP/04-SSTI/SSTI.md",
     "04-OWASP/open redirection/DOM-based open redirection Portswigger.md",
-    "04-OWASP/08-open redirection/open redircetion.md",
-    "04-OWASP/08-open redirection/DOM-based open redirection Portswigger.md",
     "04-OWASP/08-open redirection",
-    "10-Non-technical/03-English/Terms-in-write-ups-and-more/Terms.md",
     "10-Non-technical/03-English/English language.md",
-    "11-my-roadmap/Roadmap.canvas",
     "04-OWASP/open redirection/open redircetion.md",
-    "02-Programming/Bash/Bash.md",
     "04-OWASP/open redirection",
     "02-Programming/Bash/Cool Scripts.md",
     "02-Programming/JavaScript/JavaScript-TryHackme.md",
     "02-Programming/JavaScript/JavaScript for hackers.md",
-    "02-Programming/python/python.md",
     "08-tools/Recon-scr/Recon-Project.md",
     "04-OWASP/03-RCE/RCE.md",
     "04-OWASP/02-Command Injections/command-injection.md",
     "04-OWASP/01-SQL Injections/sqli.md",
-    "02-Programming/python/Recon-Project-Python.md",
-    "02-Programming/PHP/Syntax.md",
-    "02-Programming/PHP/PHP.md",
-    "02-Programming/PHP/Form's php.md",
-    "01-Operating-System/01-Linux/init system.md",
-    "01-Operating-System/01-Linux/Config Files.md",
-    "task's.md",
-    "README.md",
-    "01-Operating-System/01-Linux/Linux.md",
-    "01-Operating-System/01-Linux/i3wm.md",
     "01-Operating-System/01-Linux/pics/conky-clock.png",
     "10-Non-technical/04-book-pdfs/The Easy Way to Stop Smoking Join the Millions Who Have Become Nonsmokers.. (Allen Carr) (Z-Library).pdf",
     "11-my-roadmap",
@@ -236,8 +270,6 @@
     "02-Programming/PHP",
     "04-OWASP/02-Command Injections/pics/skf-lab1-3.png",
     "00-Network/01-HTTP/Untitled",
-    "01-Operating-System/01-Linux/pics",
-    "10-Non-technical/04-book-pdfs",
-    "10-Non-technical/05-book-pdfs/The Easy Way to Stop Smoking Join the Millions Who Have Become Nonsmokers.. (Allen Carr) (Z-Library).pdf"
+    "01-Operating-System/01-Linux/pics"
   ]
 }

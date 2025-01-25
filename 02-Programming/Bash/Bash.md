@@ -1,4 +1,3 @@
-- ## [[Recon-Project-Bash]]
 - ## [[Cool Scripts]]
 -
 
