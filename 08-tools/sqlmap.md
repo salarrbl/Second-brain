@@ -25,3 +25,4 @@
 - --dbms 
 	- to specify the database
 ## you can Crepe production [this site](https://hackertarget.com/sqlmap-tutorial/)
+# sqlmap Command [generator](https://acorzo1983.github.io/SQLMapCG/)
