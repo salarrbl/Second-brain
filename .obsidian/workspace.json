@@ -27,16 +27,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04-OWASP/01-SQL Injections/SQL injection-y.md",
+                "file": "04-OWASP/01-SQL Injections/SQL injection PortSwigger.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SQL injection-y"
+              "title": "SQL injection PortSwigger"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -188,14 +187,15 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "ffc991438c18a82f",
+  "active": "42020588936b9540",
   "lastOpenFiles": [
-    "04-OWASP/01-SQL Injections/SQL injection PortSwigger.md",
-    "04-OWASP/01-SQL Injections/sqli.md",
     "04-OWASP/owasp.md",
-    "02-Programming/SQL/SQl.md",
-    "04-OWASP/01-SQL Injections/SQL injection-y.md",
+    "04-OWASP/09-Mis-Sec/Security Misconfiguration.md",
+    "04-OWASP/01-SQL Injections/SQL injection PortSwigger.md",
     "11-my-roadmap/Roadmap.canvas",
+    "04-OWASP/01-SQL Injections/SQL injection-y.md",
+    "04-OWASP/01-SQL Injections/sqli.md",
+    "02-Programming/SQL/SQl.md",
     "01-Operating-System/01-Linux/init system.md",
     "08-tools/sqlmap.md",
     "08-tools/Tools.md",
@@ -204,7 +204,6 @@
     "Recon-Project-Bash.md",
     "08-tools/01-me-Created/rebel.md",
     "04-OWASP/08-open redirection/open redircetion.md",
-    "04-OWASP/09-Mis-Sec/Security Misconfiguration.md",
     "04-OWASP/09-Mis-Sec/01-Default Credentials.md",
     "02-Programming/python/python.md",
     "02-Programming/python/script_skf_cret_.md",
@@ -220,7 +219,6 @@
     "04-OWASP/open redirection",
     "02-Programming/Bash/Cool Scripts.md",
     "02-Programming/JavaScript/JavaScript-TryHackme.md",
-    "02-Programming/JavaScript/JavaScript for hackers.md",
     "01-Operating-System/01-Linux/pics/conky-clock.png",
     "10-Non-technical/04-book-pdfs/The Easy Way to Stop Smoking Join the Millions Who Have Become Nonsmokers.. (Allen Carr) (Z-Library).pdf",
     "11-my-roadmap",

