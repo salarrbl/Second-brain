@@ -33,3 +33,13 @@
 	- bypass by Irregular uppercase and lowercase characters 
 	- `http://LoCalHOsT/AdMiN/DeLeTE?username=carlos`
 	- `http://127.1/AdMin/DeLeTE?username=weiner`
+
+####  Bypassing SSRF filters via open redirection
+- [link](https://portswigger.net/web-security/learning-paths/ssrf-attacks/ssrf-attacks-circumventing-defenses/ssrf/bypassing-ssrf-filters-via-open-redirection)
+- [write-up](https://medium.com/@cyberseccafe/ssrf-with-filter-bypass-via-open-redirection-9949b6ed8eb9) for understanding  
+-
+
+## Blind SSRF vulnerabilities
+Blind SSRF vulnerabilities occur if you can cause an application to issue a back-end HTTP request to a supplied URL, but the response from the back-end request is not returned to the application's front-end response.
+
+Blind SSRF is harder to exploit but sometimes leads to full remote code execution on the server or other back-end components.
