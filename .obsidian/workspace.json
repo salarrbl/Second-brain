@@ -55,7 +55,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -190,6 +191,14 @@
   },
   "active": "634cb0d077dee4c3",
   "lastOpenFiles": [
+    "04-OWASP/10-SSRF/ssrf.md",
+    "10-Non-technical/03-English/Terms-in-write-ups-and-more/Terms.md",
+    "10-Non-technical/04-book-pdfs/The Easy Way to Stop Smoking Join the Millions Who Have Become Nonsmokers.. (Allen Carr) (Z-Library).pdf",
+    "10-Non-technical/04-book-pdfs/Book.md",
+    "10-Non-technical/01-Book's/Book.md",
+    "10-Non-technical/01-Book's/The Easy Way to Stop Smoking  by Allen Carr.md",
+    "10-Non-technical/01-Book's/Discipline.md",
+    "04-OWASP/10-SSRF/ssrf-portswigger.md",
     "p.py",
     "04-OWASP/10-SSRF/pic/p-lab1-7.png",
     "04-OWASP/10-SSRF/pic/p-lab1-6.png",
@@ -198,11 +207,8 @@
     "04-OWASP/10-SSRF/pic/p-lab1-3.png",
     "04-OWASP/10-SSRF/pic/p-lab1-2.png",
     "04-OWASP/10-SSRF/pic/portswigger2.png",
-    "10-Non-technical/03-English/Terms-in-write-ups-and-more/Terms.md",
-    "04-OWASP/10-SSRF/ssrf-portswigger.md",
     "04-OWASP/10-SSRF/pic/portswigger1.png",
     "04-OWASP/10-SSRF/pic",
-    "04-OWASP/10-SSRF/ssrf.md",
     "04-OWASP/08-open redirection/DOM-based open redirection Portswigger.md",
     "task's.md",
     "04-OWASP/01-SQL Injections/SQL injection PortSwigger.md",
@@ -223,19 +229,13 @@
     "Recon-Project-Bash.md",
     "08-tools/01-me-Created/rebel.md",
     "02-Programming/python/python.md",
-    "02-Programming/python/script_skf_cret_.md",
     "02-Programming/python/script_skf_cret_.py",
     "04-OWASP/09-Mis-Sec",
-    "04-OWASP/04-SSTI/SSTI.md",
-    "04-OWASP/open redirection/DOM-based open redirection Portswigger.md",
     "04-OWASP/08-open redirection",
-    "10-Non-technical/03-English/English language.md",
     "04-OWASP/open redirection",
     "01-Operating-System/01-Linux/pics/conky-clock.png",
-    "10-Non-technical/04-book-pdfs/The Easy Way to Stop Smoking Join the Millions Who Have Become Nonsmokers.. (Allen Carr) (Z-Library).pdf",
     "11-my-roadmap",
     "03-Web-Application/RBWAPP",
-    "04-OWASP/01-SQL Injections/pics/p-blind1-5.png",
-    "02-Programming/PHP"
+    "04-OWASP/01-SQL Injections/pics/p-blind1-5.png"
   ]
 }

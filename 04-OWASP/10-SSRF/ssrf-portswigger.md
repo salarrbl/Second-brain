@@ -24,4 +24,12 @@
 - [link](https://portswigger.net/web-security/learning-paths/ssrf-attacks/ssrf-attacks-common-ssrf-attacks/ssrf/ssrf-attacks-against-other-back-end-systems)
 - ###### [lab2](https://portswigger.net/web-security/learning-paths/ssrf-attacks/ssrf-attacks-common-ssrf-attacks/ssrf/lab-basic-ssrf-against-backend-system#)
 	- like above lab 
-		- just find  internal-server (internal system) ip and delete user
+		- just find  internal-server (internal system) ip (by burp or ffuf ...) and delete user
+
+###  Circumventing common SSRF defenses
+- #### SSRF with blacklist-based input filters
+- [link](https://portswigger.net/web-security/learning-paths/ssrf-attacks/ssrf-attacks-circumventing-defenses/ssrf/ssrf-with-blacklist-based-input-filters)
+- ###### [Lab3](https://portswigger.net/web-security/learning-paths/ssrf-attacks/ssrf-attacks-circumventing-defenses/ssrf/lab-ssrf-with-blacklist-filter)
+	- bypass by Irregular uppercase and lowercase characters 
+	- `http://LoCalHOsT/AdMiN/DeLeTE?username=carlos`
+	- `http://127.1/AdMin/DeLeTE?username=weiner`
