@@ -118,7 +118,7 @@ prevent    جلوگیری کردن
 manipulating    دستکاری
 variety   تنوع 
 majority   اکثریت . اکثرا
-involves  
+involves  شامل میشود
 arises   به وجود می آید   . به وجود امد
 might   میتواند 
 via از طزیق 
@@ -158,9 +158,5 @@ interactive
 triggering  محرک
 supervises    نظارت می کند
 Credentials اعتبار نامه
-
-
-
-
-
-
+Abbreviation  مخفف
+trust   اعتماد
