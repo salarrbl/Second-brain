@@ -16,3 +16,5 @@ yo meaning yashar owasp
 - [xss](./07-XSS/xss.md)
 # [[open redircetion]]
 # [[Security Misconfiguration]]
+# [[ssrf]]
+

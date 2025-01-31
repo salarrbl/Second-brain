@@ -1,12 +1,11 @@
 # haha
 
 - [ ] HTTP packet reference
-- [x] runiit
-- [ ] learning php and create a few web application 
-- [ ] learning nodes or Django and create a few web application
+- [ ] learning php and create a few web applications 
+- [ ] learning nodes or Django and create a few web applications
 - [ ] write sqli skf 
-- [ ] ssrf
-- [ ] ffuf
 - [ ] yashar verb tamper video on YouTube 
 - [ ] English word'  ---> 🧠
+- [ ] کتاب منطق
+- [ ] see vooricast and voorican
 - [ ] 

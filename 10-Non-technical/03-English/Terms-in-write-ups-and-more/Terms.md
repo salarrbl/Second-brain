@@ -1,7 +1,7 @@
 depth = عمق
 implement = اجرا . پیاده سازی
 Intents قصد نیت
-Various = ناشناس
+Various = مختلف
 recommended = پیشنهاد
 performing = اجرا کردن
 Special = ویژه . خاص
@@ -19,7 +19,7 @@ include   شامل
 specification  مشخصات  . شرح فنی
 since   از زمان .  از وقتی که 
 through   به واسطه
-passé   عبور
+passe   عبور
 determine   مشخص کردن . تعیین کردن
 defines   تعریف کردن
 previous  قبلی 

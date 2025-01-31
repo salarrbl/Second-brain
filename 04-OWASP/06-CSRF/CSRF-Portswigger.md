@@ -235,7 +235,7 @@ Some applications correctly validate the token when it is present but skip the v
 
 In this situation, the attacker can remove the entire parameter containing the token (not just its value) to bypass the validation and deliver a CSRF attack:
 
-```http
+```HTTP
 POST /email/change HTTP/1.1 
 Host: vulnerable-website.com 
 Content-Type: application/x-www-form-urlencoded 
@@ -244,6 +244,7 @@ Cookie: session=2yQIDcpia41WrATfjPqvm9tOkDvkMvLm
 
 email=pwned@evil-user.net
 ```
+
 
 # Try to solve it yourself.
 ## [practice](https://portswigger.net/web-security/learning-paths/csrf/csrf-common-flaws-in-csrf-token-validation/csrf/bypassing-token-validation/lab-token-validation-depends-on-token-being-present) in this laboratory

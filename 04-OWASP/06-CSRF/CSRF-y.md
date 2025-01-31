@@ -1,6 +1,6 @@
 # Cross Site Request Forgery
 
-It’s called CSRF in Mitre, categorized as Broken Access Control in OWASP TOP10 2021. What is it?
+It’s called CSRF in Miter, categorized as Broken Access Control in OWASP TOP10 2021. What is it?
  - It forces an end-user to execute unwanted actions on a web application in which they're currently authenticated
 -  The action should be **state-changing**, such as<span style="color:rgb(192, 0, 0)"> update profile, change password</span>, etc
 * How can attackers force a user to send HTTP request? it’s simple, we’ve learned it before
@@ -30,3 +30,6 @@ The attack scenario is shown below:
 
 
 ![[04-OWASP/06-CSRF/pics/csrfy2.png]]
+
+
+
