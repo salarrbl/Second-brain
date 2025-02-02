@@ -1,20 +1,11 @@
-yo meaning yashar owasp
-# SQL Injection
-- [[sqli]]
-- 
-# Os Command Injection
-- [[command-injection]]
-# RCE
-# SSTI
+# [[sqli]]
+# [[command-injection]]
 
-# CORS
-- [[cors]]
-- 
-# CSRF
-- [csrf](./06-CSRF/CSRF.md) 
-# XSS
-- [xss](./07-XSS/xss.md)
+# [[cors]]
+# [csrf](./06-CSRF/CSRF.md) 
+# [xss](./07-XSS/xss.md)
 # [[open redircetion]]
 # [[Security Misconfiguration]]
 # [[ssrf]]
+# [[access-control]]
 

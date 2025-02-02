@@ -1,3 +1,5 @@
 [[API-Sec]]
-[[CORS-y]]
 [[CORS-portswigger]]
+[[w2.pdf]]
+[[CORS-Expliot-code]]
+

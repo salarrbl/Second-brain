@@ -3,13 +3,15 @@
   "obsidian-style-settings",
   "python-scripter",
   "canvasblocks",
-  "terminal",
   "languagetool",
   "shiki-highlighter",
   "mlir-syntax-highlight",
   "colored-text",
   "inline-code-highlight",
-  "surfing",
   "various-complements",
-  "obsidian-autocomplete-plugin"
+  "obsidian-autocomplete-plugin",
+  "obsidian-markmind",
+  "obsifetch",
+  "obsidian-icon-folder",
+  "iconic"
 ]
