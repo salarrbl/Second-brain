@@ -1,0 +1,136 @@
+{
+  "biggerIcons": "mobile",
+  "clickableIcons": "desktop",
+  "showAllFileIcons": false,
+  "showAllFolderIcons": false,
+  "minimalFolderIcons": false,
+  "showItemName": "desktop",
+  "biggerSearchResults": "mobile",
+  "maxSearchResults": 50,
+  "colorPicker1": "list",
+  "colorPicker2": "rgb",
+  "uncolorHover": false,
+  "uncolorDrag": false,
+  "uncolorSelect": false,
+  "uncolorQuick": false,
+  "rememberDeletedItems": false,
+  "dialogState": {
+    "iconMode": true,
+    "emojiMode": false,
+    "rulePage": "folder"
+  },
+  "appIcons": {},
+  "tabIcons": {},
+  "fileIcons": {
+    "00-Network": {
+      "icon": "lucide-network",
+      "unsynced": [
+        "76a588cde7f364ab"
+      ]
+    },
+    "01-Operating-System": {
+      "icon": "🖥️",
+      "unsynced": [
+        "76a588cde7f364ab"
+      ]
+    },
+    "01-Operating-System/01-Linux": {
+      "icon": "🐧",
+      "color": "gray",
+      "unsynced": [
+        "76a588cde7f364ab"
+      ]
+    },
+    "01-Operating-System/02-Windows": {
+      "icon": "🪟",
+      "color": "blue",
+      "unsynced": [
+        "76a588cde7f364ab"
+      ]
+    },
+    "02-Programming": {
+      "icon": "👅",
+      "unsynced": [
+        "76a588cde7f364ab"
+      ]
+    },
+    "03-Web-Application": {
+      "icon": "lucide-globe-lock",
+      "unsynced": [
+        "76a588cde7f364ab"
+      ]
+    },
+    "04-OWASP": {
+      "icon": "🪰",
+      "color": "red",
+      "unsynced": [
+        "76a588cde7f364ab"
+      ]
+    },
+    "05-Write-Ups": {
+      "icon": "lucide-pen-square",
+      "unsynced": [
+        "76a588cde7f364ab"
+      ]
+    },
+    "06-Bug Bounty": {
+      "icon": "lucide-bug-off",
+      "unsynced": [
+        "76a588cde7f364ab"
+      ]
+    },
+    "08-tools": {
+      "icon": "🪓",
+      "unsynced": [
+        "76a588cde7f364ab"
+      ],
+      "color": "red"
+    },
+    "10-Non-technical": {
+      "icon": "lucide-brain",
+      "color": "green",
+      "unsynced": [
+        "76a588cde7f364ab"
+      ]
+    },
+    "11-my-roadmap": {
+      "icon": "lucide-chart-no-axes-combined",
+      "color": "green",
+      "unsynced": [
+        "76a588cde7f364ab"
+      ]
+    }
+  },
+  "bookmarkIcons": {},
+  "tagIcons": {},
+  "propertyIcons": {},
+  "ribbonIcons": {},
+  "fileRules": [
+    {
+      "id": "NIORR",
+      "name": "Untitled rule",
+      "match": "all",
+      "conditions": [
+        {
+          "source": "name",
+          "operator": "contains"
+        }
+      ],
+      "enabled": true
+    }
+  ],
+  "folderRules": [
+    {
+      "id": "xBkJL",
+      "name": "Untitled rule",
+      "match": "all",
+      "conditions": [
+        {
+          "source": "name",
+          "operator": "contains"
+        }
+      ],
+      "enabled": true
+    }
+  ]
+}

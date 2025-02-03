@@ -1,6 +1,6 @@
 depth = عمق
 implement = اجرا . پیاده سازی
-Intents قصد نیت
+Intents قصد نیت[^1]
 Various = مختلف
 recommended = پیشنهاد
 performing = اجرا کردن
@@ -145,7 +145,7 @@ questions  سوالات
 section  مرحله 
 varieties انواع 
 circumvent  دور زدن 
-among st 
+among درمیان‌/
 deliver   تحویل دادن 
 sinks  منابع ورودی
 dependencies  وابستگیها 
@@ -160,3 +160,8 @@ supervises    نظارت می کند
 Credentials اعتبار نامه
 Abbreviation  مخفف
 trust   اعتماد
+several چندین
+issues مسایل 
+potentially    به طور بالقوه
+familiar آشنایی
+popular  محبوب

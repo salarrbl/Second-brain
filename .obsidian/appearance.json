@@ -1,5 +1,9 @@
 {
   "enabledCssSnippets": [
     "highlight-pattern"
-  ]
+  ],
+  "cssTheme": "Obsidian Nord",
+  "interfaceFontFamily": "Futura,Hack",
+  "textFontFamily": "Futura",
+  "baseFontSize": 16
 }

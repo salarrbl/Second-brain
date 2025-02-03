@@ -1,4 +1,3 @@
-- [xssy](./XSS-y.md)
 - [[xss-skf]]
 - [[XSS-PortSwigger]]
 - [[w2.pdf]]

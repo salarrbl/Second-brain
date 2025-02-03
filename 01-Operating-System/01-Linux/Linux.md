@@ -492,5 +492,7 @@ vimtutor
 ### [Bash](../../02-Programming/Bash/Bash.md)
 ## [[Config Files]]
 ## [[init system]]
+## [[encrypt-Directory]]
+
 
 

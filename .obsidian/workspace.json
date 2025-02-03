@@ -1,20 +1,24 @@
 {
   "main": {
-    "id": "72dada1bc7837232",
+    "id": "0961dd3b6d1907d5",
     "type": "split",
     "children": [
       {
-        "id": "983cf330ff6ff483",
+        "id": "70038d2aa6db646d",
         "type": "tabs",
         "children": [
           {
-            "id": "e2052e9878e43e55",
+            "id": "6863e9dbaf4b546e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "08-tools/Recon-scr/Recon-Project.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Recon-Project"
             }
           }
         ]
@@ -23,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "4c4eabce59c746f5",
+    "id": "ae7c0c16aa769b84",
     "type": "split",
     "children": [
       {
-        "id": "53a0320d731f19fc",
+        "id": "67ef26b5372a7ba3",
         "type": "tabs",
         "children": [
           {
-            "id": "ffc991438c18a82f",
+            "id": "68ba19fe83ed7743",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -44,7 +48,7 @@
             }
           },
           {
-            "id": "83af32b949d79e80",
+            "id": "2faca33d8b9c762e",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -61,7 +65,7 @@
             }
           },
           {
-            "id": "b44fb323c67605cf",
+            "id": "5d9ab30ded21abbe",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -69,87 +73,82 @@
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
-          },
-          {
-            "id": "6cf681c12bd735e5",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 322.5
+    "width": 223.5
   },
   "right": {
-    "id": "2f56256dd7f495c0",
+    "id": "d7ca22df474ba5a7",
     "type": "split",
     "children": [
       {
-        "id": "13b332fdf7131ff3",
+        "id": "86dc7e88d2ed7edd",
         "type": "tabs",
         "children": [
           {
-            "id": "f5845f66c72f8e69",
+            "id": "e636aa16ef3d45a8",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "10-Non-technical/01-Book's/The Gifts of Imperfection - Brené Brown.md",
+                "file": "08-tools/Recon-scr/Recon-Project.md",
                 "collapseAll": false,
-                "extraContext": true,
+                "extraContext": false,
                 "sortOrder": "alphabetical",
-                "showSearch": true,
+                "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": true,
+                "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for The Gifts of Imperfection - Brené Brown"
+              "title": "Backlinks for Recon-Project"
             }
           },
           {
-            "id": "ac1e9f36175b3964",
+            "id": "8723e8dea657550f",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-Network/01-HTTP/HTTP-Message.md",
+                "file": "04-OWASP/10-SSRF/ssrf-portswigger.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from HTTP-Message"
+              "title": "Outgoing links from ssrf-portswigger"
             }
           },
           {
-            "id": "4681c425c6e1c983",
+            "id": "44bbc68bd419014f",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Tags"
             }
           },
           {
-            "id": "6dd180fceab936c8",
+            "id": "6b2ebdbd9f68b962",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-Network/01-HTTP/HTTP-Message.md"
+                "file": "04-OWASP/10-SSRF/ssrf-portswigger.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of HTTP-Message"
+              "title": "Outline of ssrf-portswigger"
             }
           }
         ]
@@ -168,57 +167,43 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsifetch:obsifetch": false,
-      "iconic:Open rulebook": false
+      "iconic:Open rulebook": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e2052e9878e43e55",
+  "active": "6863e9dbaf4b546e",
   "lastOpenFiles": [
-    "04-OWASP/Untitled mindmap.md",
-    "04-OWASP/10-SSRF/ssrf-portswigger.md",
-    "02-Programming/JavaScript/js-webapp.md",
-    "10-Non-technical/03-English/Terms-in-write-ups-and-more/Terms.md",
-    "task's.md",
-    "04-OWASP/10-SSRF/ssrf.md",
+    "08-tools/Tools.md",
+    "04-OWASP/12-Cyrptographic-Failures/Cryptographic-Failures.md",
+    "04-OWASP/owasp.md",
+    "README.md",
+    "00-Network/Network.md",
+    "00-Network/01-HTTP/HTTP.md",
+    "00-Network/01-HTTP/HTTP-Packet.md",
+    "00-Network/99-Books/HTTP Pocket Reference.pdf",
+    "00-Network/02-DNS/DNS.md",
+    "05-Write-Ups/Write-Ups.md",
+    "04-OWASP/12-Cyrptographic-Failures/JWT-SKF.md",
+    "04-OWASP/12-Cyrptographic-Failures/jwt-portswigger.md",
     "11-my-roadmap/Roadmap.canvas",
-    "02-Programming/PHP/Syntax.md",
+    "10-Non-technical/03-English/Terms-in-write-ups-and-more/Terms.md",
+    "04-OWASP/07-XSS/XSS-PortSwigger.md",
+    "04-OWASP/07-XSS/xss.md",
     "04-OWASP/11-Access-Control/access-control.md",
-    "04-OWASP/09-Mis-Sec/Security Misconfiguration.md",
+    "00-Network/01-HTTP/Web-Server.md",
+    "00-Network/01-HTTP/URL-Encode.md",
+    "02-Programming/JavaScript/js-webapp.md",
     "02-Programming/JavaScript/JavaScript-TryHackme.md",
     "02-Programming/JavaScript/JavaScript for hackers.md",
     "02-Programming/JavaScript/JavaScript.md",
-    "02-Programming/python/script_skf_cret_.md",
-    "02-Programming/python/python.md",
-    "02-Programming/PHP/php-project.md",
-    "02-Programming/PHP/PHP.md",
-    "10-Non-technical/03-English/store-word-by-Imagination.md",
-    "04-OWASP/05-CORS/CORS-Expliot-code.md",
-    "04-OWASP/05-CORS/cors.md",
-    "03-Web-Application/web-application-concept.md",
-    "03-Web-Application/API-Sec.md",
-    "03-Web-Application/pics/pic3api-sec.png",
-    "03-Web-Application/pics/pic2api-sec.png",
-    "03-Web-Application/pics/p2-api-sce.png",
-    "00-Network/99-Books/HTTP Pocket Reference.pdf",
-    "00-Network/Network.md",
-    "04-OWASP/07-XSS/XSS-PortSwigger.md",
-    "04-OWASP/06-CSRF/CSRF.md",
-    "04-OWASP/07-XSS/xss-skf.md",
-    "04-OWASP/07-XSS/xss.md",
-    "04-OWASP/11-Access-Control",
-    "10-Non-technical/03-English/book's/Oxford Word Skills Basic_ Student's Pack (book and CD-ROM)_ Learn and Practise English Vocabulary ( PDFDrive ).pdf",
-    "10-Non-technical/03-English/book's/Oxford Word Skills Basic(Student's Book) ( PDFDrive ).pdf",
-    "10-Non-technical/03-English/book's",
-    "10-Non-technical/03-English/basic",
-    "excalidraw 25-01-31 05.00.58.ex",
-    "excalidraw 25-01-31 05.00.57.ex",
-    "excalidraw 25-01-31 05.00.45.ex",
-    "07-Bug Bounty/01-R",
-    "04-OWASP/01-SQL Injections/pics/2025-01-05_22-31.png",
-    "04-OWASP/10-SSRF/pic/p-lab1-7.png",
-    "04-OWASP/10-SSRF/pic/p-lab1-6.png",
-    "04-OWASP/10-SSRF/pic/p-lab1-5.png",
-    "04-OWASP/10-SSRF/pic/p-lab1-4.png",
-    "04-OWASP/10-SSRF/pic/p-lab1-3.png",
-    "04-OWASP/10-SSRF/pic/p-lab1-2.png"
+    "08-tools/Openssl.md",
+    "10-Non-technical/03-English/English language.md",
+    "10-Non-technical/03-English/basic/Basic.md",
+    "10-Non-technical/02-course and more/Speed-​​reading.md",
+    "00-Network/03-encryption",
+    "04-OWASP/12-Cyrptographic-Failures/pic/jwt-weak.png",
+    "04-OWASP/12-Cyrptographic-Failures/pic",
+    "04-OWASP/12-Cyrptographic-Failures",
+    "Excalidraw"
   ]
 }

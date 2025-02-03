@@ -2,16 +2,20 @@
 
 - [ ] HTTP packet reference
 - [ ] learning php and create a few web applications 
-	- [ ] 
+	- [ ] rezome site
+	- [ ] notebook 
+	- [ ] call form
+	- [ ] system motireat mohtava CMS
+	- [ ] galary onilne picture
+	- [ ] simple shop
+	- [ ] authentication system
+	- [ ] weblog platform
+	- [ ] modireat Project
+	- [ ] social media little
 - [ ] learning nodes or Django and create a few web applications
-- [ ] write sqli skf 
-- [ ] yashar verb tamper video on YouTube 
+- [x] yashar verb tamper video on YouTube 
 - [ ] English word'  ---> 🧠
 - [ ] کتاب منطق
 - [ ] see vooricast and voorican
-- [ ] Practice xss   
-- [ ] practice csrf, cors
-- [ ] idor
-- [ ] open redirect
-- [ ] jwt
+- [ ] week 4 [[owasp]]
 - [ ] 

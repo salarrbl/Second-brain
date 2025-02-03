@@ -11,7 +11,7 @@
 
 # Habits
 - Daily Goals 
-	- [ ] tasks
+	- [x] tasks
 - Your habits = Your personality
 - plan 
 	- Morning plan

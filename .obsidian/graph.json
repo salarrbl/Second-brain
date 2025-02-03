@@ -1,30 +1,30 @@
 {
-  "collapse-filter": true,
+  "collapse-filter": false,
   "search": "",
   "showTags": true,
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "",
+      "query": "file:README",
       "color": {
         "a": 1,
-        "rgb": 14725458
+        "rgb": 1958658
       }
     }
   ],
   "collapse-display": true,
   "showArrow": true,
-  "textFadeMultiplier": -3,
-  "nodeSizeMultiplier": 0.865625,
-  "lineSizeMultiplier": 0.7890625,
+  "textFadeMultiplier": -1.5,
+  "nodeSizeMultiplier": 0.993229166666667,
+  "lineSizeMultiplier": 0.227604166666667,
   "collapse-forces": true,
   "centerStrength": 0.322916666666667,
   "repelStrength": 9.27083333333333,
   "linkStrength": 0.984375,
   "linkDistance": 30,
-  "scale": 0.0078125,
+  "scale": 2.2806973457336426,
   "close": true
 }
